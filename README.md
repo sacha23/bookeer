@@ -6,3 +6,4 @@ Simple python script to make a single pdf from list of URL's
   * detect relative url's.
   * if only main URL is given make PDF of that page
   * set an option to select only part of web page that is to be converted from each page 
+  * Cheat sheet maker
