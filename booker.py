@@ -47,7 +47,7 @@ Arg's: main   Page to find URL series
        end    URL of ending page   [ inclusive ]'''
         if(re.search("http[s]?://.*?html",main)):
                in_file = requests.get(main).content
-               all_url_list = re.findall('[hH][rR][eE][fF]="(.*?html)', in_file)
+               all_url_list = re.findall('[hH][rR][eE][fF]="(.*?)"', in_file)
             #  print urllist[:10]
                for a in range(0,len(all_url_list)):
                	     all_url_list[a] = main.rsplit('/',1)[0] + '/' + all_url_list[a]
