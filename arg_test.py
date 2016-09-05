@@ -3,6 +3,7 @@
 # import required modules
 import argparse
 import booker_new
+from os import getcwd
 
 # building parser object with required args 
 parser = argparse.ArgumentParser(description="Tool to convert series of webpages into single PDF")
@@ -43,5 +44,5 @@ if (st_index and end_index):
 	
 	print "\nURL's parsed successfully.....\n"
 	print "Downloading Webpages and making PDF\n"
-	booker_new.htmltopdf(abs_url_list[st_index:end_index+1],main)
-	print "\nPDF saved successfully as "+main.rsplit('/',2)[1]+".pdf"+" in home directory"
+	#booker_new.htmltopdf(abs_url_list[st_index:end_index+1],main)
+	print "\nPDF saved successfully as "+main.rsplit('/',2)[1]+".pdf"+" in " + getcwd() + " directory"
