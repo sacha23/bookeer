@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 
-# TBD : iframe capture and extracting correct info iframe eg:"http://www.pitt.edu/~naraehan/python2/index.html"
-        
+# TBD : * iframe capture and extracting correct info iframe eg:"http://www.pitt.edu/~naraehan/python2/index.html".
+#       * detect relative url's. 
+
 
 
 
