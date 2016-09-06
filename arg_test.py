@@ -44,5 +44,5 @@ if (st_index and end_index):
 	
 	print "\nURL's parsed successfully.....\n"
 	print "Downloading Webpages and making PDF\n"
-	#booker_new.htmltopdf(abs_url_list[st_index:end_index+1],main)
+	booker_new.htmltopdf(abs_url_list[st_index:end_index+1],main)
 	print "\nPDF saved successfully as "+main.rsplit('/',2)[1]+".pdf"+" in " + getcwd() + " directory"
