@@ -10,3 +10,4 @@ Simple python script to make a single pdf from list of URL's
  - [ ] Process the page source so that only required document is converted to PDF.Eg: in python docs extract only doc not side menu.
  - [ ] Cheat sheet maker.
  - [ ] If page contains Download PDF option ,use it and just merge pdfs.
+ - [ ] don't include **something.com/p/a/t/h.html** and **something.com/p/a/t/h.html#something**

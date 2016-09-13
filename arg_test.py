@@ -28,7 +28,7 @@ abs_url_list = booker_new.make_abs_url(extr_list,main)
 st_index,end_index = booker_new.find_index(abs_url_list,start,end)
 
 if not (st_index and end_index):
-	ifr_list = extract_ifr(main)
+	ifr_list = booker_new.extract_ifr(main)
 	for main in ifr_list:
 		cont = booker_new.get_page(main)
 		extr_list = booker_new.extract_url(cont)
@@ -36,6 +36,9 @@ if not (st_index and end_index):
 		st_index,end_index = booker_new.find_index(abs_url_list,start,end)
 		if st_index and end_index:
 			break
+print abs_url_list
+print st_index
+print end_index
 if not (st_index):
 	print 'Oops!..Starting URL not found on main page.'
 if not (end_index):
