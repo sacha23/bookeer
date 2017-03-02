@@ -1,5 +1,5 @@
-# bookeer
-Simple python script to make a single pdf from list of URL's
+# booker
+Simple python script to make a single pdf from book like websites.
 
 # TBD :
  - [ ] iframe capture and extracting correct info iframe.
